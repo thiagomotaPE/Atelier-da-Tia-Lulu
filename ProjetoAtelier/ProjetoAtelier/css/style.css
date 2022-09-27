@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+   background-color: rgb(221, 188, 191);
+   color: #8c4f4d;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #8c4f4d;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.navegacao > a{
+    color: white;
+    margin: 20px;
+}
+
+.principal{
+    position: absolute;
+    margin-top: 50px;
+}  
+main > section > img{
+    margin: 10px;
+}
+#costureira{
+    border-radius: 50%;
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.descricao-costureira > p{
+    width: 300px;
+    text-align: center;
+    margin-left: 50px;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+}
+
+.sobre-nos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.descricao-costura > h3{
+    color: #8c4f4d;
+}
+.descricao-costura{
+    width: 750px;
+    color: rgb(70, 70, 70);
+}
+.destaques{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.linha1, .linha2{
+    margin: 5px;
+    align-items: center;
+}
+.destaques > div > img{
+    margin-left: 25px;
+}
+
+footer{
+    margin-top: 900px;
+}
+
+footer > div{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+footer > div > a{
+    color: #8c4f4d;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
